@@ -1,5 +1,5 @@
 
-# Kubernetes Pod Creation — Full Sequence Diagram
+# Kubernetes Pod Creation — Sequence Diagram
 
 ```
 kubectl        API Server          etcd           scheduler         kubelet          containerd
