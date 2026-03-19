@@ -1,3 +1,4 @@
+```bash
 kubectl        API Server           controller Manager       etcd           scheduler         kubelet         CNI            containerd
    |               |                       |                    |                 |               |            |                 |
 1  |-create Deply->|                       |                    |                 |               |            |                 |
@@ -25,3 +26,4 @@ kubectl        API Server           controller Manager       etcd           sche
 11 |               |<-------------Pod status update-----------------------------------------------|            |                 |
    |               |---------write status->|                    |                                 |            |                 |
 12 |               |<------------200-------|                    |                                 |            |                 |
+```
